@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenPLi enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-15 22:30+0300\n"
+"POT-Creation-Date: 2021-09-17 22:15+0300\n"
 "PO-Revision-Date: \n"
 "Last-Translator: ims <ims21@users.sourceforge.net>\n"
 "Language-Team: PLi <ims@openpli.org>\n"
@@ -79,7 +79,7 @@ msgstr " (TV)"
 
 #
 msgid " (auto detection)"
-msgstr "(automatická detekce)"
+msgstr " (automatická detekce)"
 
 #
 msgid " (disabled)"
@@ -167,10 +167,6 @@ msgid "%a %e/%m  %-H:%M"
 msgstr "%a %e/%m  %-H:%M"
 
 #, python-format
-msgid "%d GB"
-msgstr "%d GB"
-
-#, python-format
 msgid "%d MB"
 msgstr "%d MB"
 
@@ -223,10 +219,6 @@ msgstr[1] "%d úlohy běží na pozadí!"
 msgstr[2] "%d úloh běží na pozadí!"
 
 #, python-format
-msgid "%d kB"
-msgstr "%d kB"
-
-#, python-format
 msgid "%d kB/s"
 msgstr "%d kB/s"
 
@@ -251,12 +243,12 @@ msgid "%d ms"
 msgstr "%d ms"
 
 #
-#, fuzzy, python-format
+#, python-format
 msgid "%d package selected."
 msgid_plural "%d packages selected."
-msgstr[0] " balíčků vybráno."
-msgstr[1] " balíčků vybráno."
-msgstr[2] " balíčků vybráno."
+msgstr[0] "%d balíček vybrán."
+msgstr[1] "%d balíčky vybrány."
+msgstr[2] "%d balíčků vybráno."
 
 #
 #, python-format
@@ -567,28 +559,19 @@ msgstr "??"
 msgid "A"
 msgstr "A"
 
-#
-#, python-format
-msgid "A configuration file (%s) has been modified since it was installed. Would you like to keep the modified version?"
-msgstr "Konfigurační soubor (%s) byl od instalace změněn. Chcete zachovat Vaše změny?"
-
-#
-#, python-format
-msgid ""
-"A configuration file (%s) was modified since Installation.\n"
-"Do you want to keep your version?"
-msgstr ""
-"Konfigurační soubor (%s) byl od instalace změněn.\n"
-"Chcete zachovat Vaši verzi?"
-
-msgid "A file from media is in use!"
-msgstr "Soubor na médiu je používán!"
-
 msgid "A completed recording timer is about to put your receiver in standby mode. Would you like to proceed?"
 msgstr "Dokončený časovač nahrávání chce přepnout přijímač do pohotovostního režimu. Přepnout?"
 
 msgid "A completed recording timer is about to shut down your receiver. Would you like to proceed?"
 msgstr "Dokončený časovač nahrávání chce vypnout přijímač. Vypnout?"
+
+#
+#, python-format
+msgid "A configuration file (%s) has been modified since it was installed. Would you like to keep the modified version?"
+msgstr "Konfigurační soubor (%s) byl od instalace změněn. Chcete zachovat Vaše změny?"
+
+msgid "A file from media is in use!"
+msgstr "Soubor na médiu je používán!"
 
 #
 msgid "A graphical EPG for all services of a specific bouquet"
@@ -615,12 +598,12 @@ msgstr ""
 "Co chcete udělat?"
 
 #
-msgid "A recording is currently running. Please stop the recording before starting a service scan."
-msgstr "Probíhá nahrávání. Zrušte nahrávání před prohledáváním."
-
-#
 msgid "A recording is currently running. Please stop the recording before starting a DiSEqC test."
 msgstr "Probíhá nahrávání. Zrušte nahrávání před začátkem testování DiSEqC.."
+
+#
+msgid "A recording is currently running. Please stop the recording before starting a service scan."
+msgstr "Probíhá nahrávání. Zrušte nahrávání před prohledáváním."
 
 #
 msgid "A repeating event is currently recording. What would you like to do?"
@@ -969,9 +952,6 @@ msgstr "Umožnit 10bit"
 
 msgid "Allow 12bit"
 msgstr "Umožnit 12bit"
-
-msgid "Allow quit movieplayer with exit"
-msgstr "Umožnit zavírat movieplayer pomocí Exit"
 
 msgid "Allow quitting movie player with exit"
 msgstr "Umožnit zavírat movie player pomocí Exit"
@@ -1891,7 +1871,7 @@ msgstr "Kapitola:"
 
 #
 msgid "Check"
-msgstr "Ověřit"
+msgstr "Zkontrolovat"
 
 msgid "Check the internet connection"
 msgstr "Zkontrolujte připojení k internetu"
@@ -3372,6 +3352,10 @@ msgid "Downloading Image"
 msgstr "Stahuje se image"
 
 #
+msgid "Downloading a new packet list. Please wait..."
+msgstr "Stahuje se nový seznam balíčků. Prosím, čekejte..."
+
+#
 msgid "Downloading plugin information. Please wait..."
 msgstr "Stahuji informace o pluginech. Prosím, čekejte..."
 
@@ -3504,7 +3488,7 @@ msgid "Emergency"
 msgstr "Nouzový"
 
 msgid "Empty Trash"
-msgstr "Prázdný koš"
+msgstr "Vysypat koš"
 
 msgid "Empty slot"
 msgstr "volný slot"
@@ -5012,7 +4996,7 @@ msgstr "Inicializovat"
 
 #
 msgid "Initializing storage device..."
-msgstr "Inicializace zařízení pro ukládání..."
+msgstr "Inicializuje se zařízení pro ukládání..."
 
 #
 msgid "Input"
@@ -5797,7 +5781,7 @@ msgstr "Prodleva spuštění motoru"
 
 #
 msgid "Mount"
-msgstr "Připojit"
+msgstr "Připojení"
 
 #
 msgid "Move"
@@ -8480,6 +8464,10 @@ msgstr "Vyberte způsob udržování správného času přijímače. Můžete po
 msgid "Select image"
 msgstr "Výběr image"
 
+#
+msgid "Select in which resolution pictures are displayed with picture viewer or movie player."
+msgstr "Nastavuje v jakém rozlišení bude zobrazovat obrázky prohlížeč obrázků a movie player."
+
 msgid "Select input device"
 msgstr "Vyberte vstupní zařízení"
 
@@ -10053,7 +10041,7 @@ msgstr ""
 "Pro případné korekce můžete kontaktovat autora\n"
 "na výše uvedené adrese.\n"
 "\n"
-"®2. 9. 2021"
+"®21. 9. 2021"
 
 #
 msgid "TS file is too large for ISO9660 level 1!"
@@ -10850,10 +10838,6 @@ msgid "True"
 msgstr "Ano"
 
 #
-msgid "Downloading a new packet list. Please wait..."
-msgstr "Stahuje se nový seznam balíčků. Prosím, čekejte..."
-
-#
 msgid "Tue"
 msgstr "Út"
 
@@ -11268,10 +11252,6 @@ msgstr "Používat koš v seznamu souborů"
 msgid "Used service scan type"
 msgstr "Použítý typ vyhledávání programu"
 
-#
-msgid "User bouquets"
-msgstr "Oblíbené"
-
 #, python-format
 msgid "User Band %d"
 msgstr "Uživatelské pásmo %d"
@@ -11287,6 +11267,10 @@ msgstr "Uživatel"
 #
 msgid "User Mode"
 msgstr "Uživatelský mód"
+
+#
+msgid "User bouquets"
+msgstr "Oblíbené"
 
 #
 msgid "User defined"
@@ -11424,9 +11408,9 @@ msgid "View details"
 msgstr "Detaily"
 
 #
-#, fuzzy, python-format
+#, python-format
 msgid "View list of available %s extensions."
-msgstr "Prohlédnout seznam dostupných rozšíření pro EPG."
+msgstr "Prohlédnout seznam %s dostupných rozšíření."
 
 #
 msgid "View list of available CommonInterface extensions"
@@ -12082,11 +12066,7 @@ msgstr "Můžete vypalovat pouze nahrávky z přijímače!"
 
 #
 msgid "You can remove this plugin."
-msgstr "Můžete odstranit tento plugin"
-
-#
-msgid "You can set how will be finished movieplayer with 'Exit' button."
-msgstr "Můžete nastavit, jak bude ukončován přehrávač při použití tlačítka 'Exit'."
+msgstr "Můžete odstranit tento plugin."
 
 #
 msgid "You can set selected directory as 'root' directory for movie player."
@@ -12298,7 +12278,7 @@ msgstr "Přepnout nahoru"
 
 #, python-format
 msgid "Zapped to timer service %s as Picture in Picture!"
-msgstr "Program %s přepnut časovačem do PiP"
+msgstr "Program %s přepnut časovačem do PiP!"
 
 #, python-format
 msgid "Zapped to timer service %s!"
@@ -12475,7 +12455,7 @@ msgid "blue"
 msgstr "Modré"
 
 msgid "bottom"
-msgstr "dole"
+msgstr "Dole"
 
 msgid "broadcasting/press"
 msgstr "vysílání/tisk"
@@ -12521,10 +12501,6 @@ msgstr "komedie"
 #
 msgid "config menu"
 msgstr "konfigurační menu"
-
-#
-msgid "Select in which resolution pictures are displayed with picture viewer or movie player."
-msgstr "Nastavuje v jakém rozlišení bude zobrazovat obrázky prohlížeč obrázků a movie player."
 
 #
 msgid "confirmed"
@@ -12823,9 +12799,8 @@ msgid "jump to chapter by number"
 msgstr "přeskočit na kapitolu podle čísla"
 
 #
-#, fuzzy
 msgid "kB"
-msgstr "B"
+msgstr "kB"
 
 msgid "languages"
 msgstr "jazyky"
@@ -13372,7 +13347,7 @@ msgstr "přepnout informace mezi časem, kapitolou, audiostopou, titulky"
 
 #
 msgid "top"
-msgstr "nahoře"
+msgstr "Nahoře"
 
 msgid "tourism/travel"
 msgstr "turistika/cestování"

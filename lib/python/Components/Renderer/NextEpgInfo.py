@@ -4,7 +4,6 @@ from Renderer import Renderer
 from enigma import eLabel, eEPGCache, eServiceReference
 from time import time, localtime, strftime
 from skin import parseColor
-from Tools.Hex2strColor import Hex2strColor
 
 
 class NextEpgInfo(Renderer, VariableText):
@@ -16,7 +15,7 @@ class NextEpgInfo(Renderer, VariableText):
 		self.hideLabel = 0
 		self.timecolor = ""
 		self.labelcolor = ""
-		self.foregroundColor = "\c00?0?0?0"
+		self.foregroundColor = "\c00f0f0f0"
 		self.numOfSpaces = 1
 
 	GUI_WIDGET = eLabel
@@ -40,7 +39,7 @@ class NextEpgInfo(Renderer, VariableText):
 					for x in range(self.numberOfItems):
 						event = self.epgcache.getNextTimeEntry()
 						if event:
-							self.text = "%s\n%s %s" % (self.text, strftime(config.usage.time.short.value, localtime(event.getBeginTime())), event.getEventName())
+							self.text += "%s%s%s%s%s\n" % (self.timecolor, strftime(config.usage.time.short.value, localtime(event.getBeginTime())), spaces, self.foregroundColor, event.getEventName())
 					if not self.hideLabel:
 						self.text = self.text and "%s%s\n%s" % (self.labelcolor, pgettext("now/next: 'next' event label", "Next"), self.text) or ""
 
@@ -57,13 +56,13 @@ class NextEpgInfo(Renderer, VariableText):
 				self.numOfSpaces = int(value)
 				attribs.append((attrib, value))
 			if attrib == "timeColor":
-				self.timecolor = Hex2strColor(parseColor(value).argb())
+				self.timecolor = "\c%08x" % parseColor(value).argb()
 				attribs.append((attrib, value))
 			if attrib == "labelColor":
-				self.labelcolor = Hex2strColor(parseColor(value).argb())
+				self.labelcolor = "\c%08x" % parseColor(value).argb()
 				attribs.append((attrib, value))
 			if attrib == "foregroundColor":
-				self.foregroundColor = Hex2strColor(parseColor(value).argb())
+				self.foregroundColor = "\c%08x" % parseColor(value).argb()
 				attribs.append((attrib, value))
 		for (attrib, value) in attribs:
 			self.skinAttributes.remove((attrib, value))
