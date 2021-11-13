@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-22 20:54+0200\n"
-"PO-Revision-Date: 2021-09-22 20:58+0200\n"
+"POT-Creation-Date: 2021-11-10 10:59+0100\n"
+"PO-Revision-Date: 2021-11-10 11:06+0100\n"
 "Last-Translator: Pr2\n"
 "Language-Team: french\n"
 "Language: fr\n"
@@ -12,6 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Poedit 3.0\n"
+
+msgid ""
+"\n"
+" Do you want to switch to Android ?"
+msgstr ""
+"\n"
+"Voulez-vous basculer vers Android?"
 
 msgid ""
 "\n"
@@ -117,6 +124,10 @@ msgstr "%.1f° O"
 #, python-format
 msgid "%.2f GB"
 msgstr "%.2f GB"
+
+#, python-format
+msgid "%.3f MHz"
+msgstr "%.3f MHz"
 
 #, python-format
 msgid "%02d:%02d"
@@ -306,6 +317,14 @@ msgstr ""
 #, python-format
 msgid "%s %d.%d"
 msgstr "%s %d.%d"
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr "%s KSymb/s"
+
+#, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
 
 #, python-format
 msgid "%s imported from fallback tuner"
@@ -1046,6 +1065,9 @@ msgstr "PID audio - codec - lang"
 msgid "Audio auto volume level"
 msgstr "Niveau du volume audio automatique"
 
+msgid "Audio description for the visually impaired"
+msgstr "Audiodescription"
+
 msgid "Audio language selection 1"
 msgstr "Sélection de la langue audio 1"
 
@@ -1693,7 +1715,7 @@ msgid "Clear before scan"
 msgstr "Effacer avant de chercher"
 
 msgid "Clear fixed"
-msgstr "Nouvelle adresse"
+msgstr "Effacer adresse"
 
 msgid "Clear log"
 msgstr "Effacer le log"
@@ -3985,6 +4007,9 @@ msgstr "HDMI-CEC source active"
 msgid "HDMI-CEC Source Inactive"
 msgstr "HDMI-CEC source Inactive"
 
+msgid "HDMI-CEC address"
+msgstr "Adresse HDMI-CEC"
+
 msgid "HDMI-CEC setup"
 msgstr "Configurer HDMI-CEC"
 
@@ -5646,6 +5671,9 @@ msgstr "Ordinaire"
 msgid "Original"
 msgstr "Original"
 
+msgid "Original audio"
+msgstr "Audio original"
+
 msgid "Other"
 msgstr "Autre"
 
@@ -6303,6 +6331,9 @@ msgstr "Appuyez sur ou sélectionnez le bouton, puis appuyez sur «OK» pour att
 
 msgid "Press or select button and then press 'OK' for attach next function or edit attached."
 msgstr "Appuyez sur ou sélectionnez le bouton, puis appuyez sur «OK» pour attacher la fonction suivante ou modifier celle attachée."
+
+msgid "Press yellow button to set CEC address again"
+msgstr "Appuyez sur le bouton jaune pour définir à nouveau l’adresse CEC"
 
 msgid "Press yellow to set this interface as default interface."
 msgstr "Appuyez sur le bouton jaune pour choisir cette interface comme interface par défaut."
@@ -7607,7 +7638,7 @@ msgid "Set end time"
 msgstr "Régler l'heure de fin"
 
 msgid "Set fixed"
-msgstr "Définir fixée"
+msgstr "Fixer adresse"
 
 msgid "Set fps for external subtitles"
 msgstr "Régler le fps pour les sous-titres externes"
@@ -8605,6 +8636,9 @@ msgstr "Activer l’affichage pendant la veille profonde"
 msgid "Switch on the display during operation."
 msgstr "Activer l’affichage en fonctionnement."
 
+msgid "Switch to Android"
+msgstr "Basculer vers Android"
+
 msgid "Switch to TV mode"
 msgstr "Basculer en mode TV"
 
@@ -8694,7 +8728,7 @@ msgstr ""
 "\n"
 "Traducteur: Pr2\n"
 "Support: www.openpli.org\n"
-"Dernière MAJ: 22-09-2021"
+"Dernière MAJ: 10-11-2021"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "Fichier TS trop grand pour le niveau 1 ISO9660!"
@@ -9981,6 +10015,9 @@ msgstr "Texte du clavier virtuel:"
 
 msgid "Virtual keyboard"
 msgstr "Clavier virtuel"
+
+msgid "Visually impaired commentary"
+msgstr "Audiodescription"
 
 msgid "Voltage mode"
 msgstr "Mode tension"
@@ -11325,6 +11362,9 @@ msgstr "Pas verrouillé"
 
 msgid "not running"
 msgstr "Ne fonctionne pas"
+
+msgid "not set"
+msgstr "pas défini"
 
 msgid "not supported"
 msgstr "Pas supporté"

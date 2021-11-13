@@ -6,6 +6,7 @@ import re
 from Tools.HardwareInfo import HardwareInfo
 from SystemInfo import SystemInfo
 from Tools.Directories import fileReadLine
+from subprocess import PIPE, Popen
 
 MODULE_NAME = __name__.split(".")[-1]
 
@@ -74,7 +75,7 @@ def getffmpegVersionString():
 	try:
 		from glob import glob
 		ffmpeg = [x.split("Version: ") for x in open(glob("/var/lib/opkg/info/ffmpeg.control")[0], "r") if x.startswith("Version:")][0]
-		return "%s" % ffmpeg[1].split("-")[0].replace("\n", "")
+		return "%s" % ffmpeg[1].split("+")[0].replace("\n", "")
 	except:
 		return _("Not Installed")
 
@@ -242,6 +243,17 @@ def getBoxUptime():
 		return "%s" % time
 	except:
 		return '-'
+
+
+def getOpenSSLVersion():
+	process = Popen(("/usr/bin/openssl", "version"), stdout=PIPE, stderr=PIPE, universal_newlines=True)
+	stdout, stderr = process.communicate()
+	if process.returncode == 0:
+		data = stdout.strip().split()
+		if len(data) > 1 and data[0] == "OpenSSL":
+			return data[1]
+	print("[About] Get OpenSSL version failed.")
+	return _("Unknown")
 
 
 # For modules that do "from About import about"
