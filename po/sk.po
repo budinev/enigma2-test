@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-07 10:36+0100\n"
-"PO-Revision-Date: 2021-11-30 16:51+0100\n"
+"POT-Creation-Date: 2021-12-22 15:03+0100\n"
+"PO-Revision-Date: 2021-12-25 00:04+0100\n"
 "Last-Translator: Andrej Tobola <andrej.tobola@gmail.com>\n"
 "Language-Team: \n"
 "Language: sk\n"
@@ -126,6 +126,10 @@ msgstr "%.1f° W"
 #, python-format
 msgid "%.2f GB"
 msgstr "%.2f GB"
+
+#, python-format
+msgid "%.3f MHz"
+msgstr "%.3f MHz"
 
 #, python-format
 msgid "%02d:%02d"
@@ -327,6 +331,14 @@ msgstr ""
 #, python-format
 msgid "%s %d.%d"
 msgstr "%s %d.%d"
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr "%s KSymb/s"
+
+#, python-format
+msgid "%s MHz"
+msgstr "%s MHz"
 
 #, python-format
 msgid "%s imported from fallback tuner"
@@ -1067,6 +1079,9 @@ msgstr "Audio PID, kodek a jazyk"
 msgid "Audio auto volume level"
 msgstr "Automatická úroveň hlasitosti zvuku"
 
+msgid "Audio description for the visually impaired"
+msgstr "Zvukový popis pre zrakovo postihnutých"
+
 msgid "Audio language selection 1"
 msgstr "Voľba jazyka zvuku 1"
 
@@ -1688,6 +1703,12 @@ msgstr "Zvoľte tuner"
 
 msgid "Choose bouquet"
 msgstr "Zvoľte prehľad"
+
+msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
+msgstr "Vyberte, či chcete skenovať jeden transpondér, jeden satelit alebo viacero satelitov."
+
+msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
+msgstr "Vyberte, či chcete vyhľadávať iba bezplatné služby alebo či chcete zahrnúť aj platené/šifrované služby."
 
 msgid "Choose which tuner to configure."
 msgstr "Zvoľte, ktorý tuner chcete konfigurovať."
@@ -2542,7 +2563,7 @@ msgid "Delete all the text"
 msgstr "Vymazať všetok text"
 
 msgid "Delete entry"
-msgstr "Vymazať zadanie"
+msgstr "Odstrániť záznam"
 
 msgid "Delete failed!"
 msgstr "Vymazanie zlyhalo!"
@@ -2699,6 +2720,9 @@ msgstr "Vypnuté"
 
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Miesto na disku rezervované pre nahrávky (v GB)"
+
+msgid "Disk state: "
+msgstr "Stav disku: "
 
 msgid "Display 16:9 content as"
 msgstr "Obraz 16:9 zobraziť ako"
@@ -3519,13 +3543,6 @@ msgid ""
 msgstr ""
 "Automatický FBC\n"
 "neaktívny"
-
-#, python-format
-msgid "FBC socket %s"
-msgstr "FBC soket %s"
-
-msgid "FBC virtual"
-msgstr "Virtuálne FBC"
 
 msgid "FEC"
 msgstr "Korekcia chybovosti (FEC)"
@@ -4816,6 +4833,9 @@ msgstr "Luxembursky"
 msgid "MB"
 msgstr "MB"
 
+msgid "MHz"
+msgstr "MHz"
+
 msgid "MMC card"
 msgstr "Karta MMC"
 
@@ -5673,6 +5693,9 @@ msgstr "Bežné"
 
 msgid "Original"
 msgstr "Originál"
+
+msgid "Original audio"
+msgstr "Originál zvuk"
 
 msgid "Other"
 msgstr "Iné"
@@ -6658,7 +6681,7 @@ msgid "Remove directory"
 msgstr "Odstrániť adresár"
 
 msgid "Remove entry"
-msgstr "Odstrániť stanicu"
+msgstr "Odstrániť položku"
 
 msgid "Remove from parental protection"
 msgstr "Odstrániť z rodičovskej zámky"
@@ -6677,6 +6700,9 @@ msgstr "Odstrániť zvolený satelit"
 
 msgid "Remove terrestrial services"
 msgstr "Odstrániť terestriálne stanice"
+
+msgid "Remove the services on scanned transponders before re-adding services?"
+msgstr "Odstrániť služby na naskenovaných transpondéroch pred opätovným pridaním služieb?"
 
 msgid "Remove this logfile"
 msgstr "Odstrániť tento log súbor"
@@ -6698,7 +6724,7 @@ msgid "Rename"
 msgstr "Premenovať"
 
 msgid "Rename entry"
-msgstr "Premenovať stanicu"
+msgstr "Premenovať položku"
 
 msgid "Rename name and description for new events"
 msgstr "Premenujte názov a popis pre nové relácie"
@@ -7106,6 +7132,9 @@ msgstr "Možnosti vyhľadávania"
 msgid "Scan state"
 msgstr "Stav prehľadávania"
 
+msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
+msgstr "Skenovať pomocou transpondérov na tabuľke NIT? „Nie“ použije transpondéry v súbore xml."
+
 msgid "Scan wireless networks"
 msgstr "Vyhľadať bezdrôtové siete"
 
@@ -7467,6 +7496,15 @@ msgstr "Zvoľte režim obrazu"
 
 msgid "Select whether your SCR device is externally powered."
 msgstr "Vyberte, či je vaše SCR zariadenie externe napájané."
+
+msgid "Select which satellite to scan."
+msgstr "Vyberte satelit, ktorý chcete skenovať."
+
+msgid "Select which transponder to scan."
+msgstr "Vyberte, ktorý transpondér chcete skenovať."
+
+msgid "Select which tuner to use for the scan."
+msgstr "Vyberte, ktorý tuner sa má použiť na vyhľadávanie."
 
 msgid "Select wireless network"
 msgstr "Zvoľte bezdrôtovú sieť"
@@ -8110,6 +8148,14 @@ msgstr "Interval prezentácie (sek.)"
 msgid "Slot %d"
 msgstr "Slot %d"
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr "Slot %s / FBC in %s"
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr "Slot %s / virtuálny FBC %s"
+
 msgid "Slovak"
 msgstr "Slovenčina"
 
@@ -8315,7 +8361,7 @@ msgstr "Srí Lanka"
 msgid "Standard"
 msgstr "Štandardné"
 
-msgid "Standart list"
+msgid "Standard list"
 msgstr "Štandardný zoznam"
 
 msgid "Standby"
@@ -10793,6 +10839,9 @@ msgstr "aktivovať konfiguráciu sieťového adaptéra"
 msgid "active"
 msgstr "aktívne"
 
+msgid "active "
+msgstr "aktívne "
+
 msgid "actual time only"
 msgstr "iba aktuálny čas"
 
@@ -11619,6 +11668,9 @@ msgstr "športový magazín"
 
 msgid "standard"
 msgstr "štandardné"
+
+msgid "standby "
+msgstr "Pohotovostný režim "
 
 msgid "start cut here"
 msgstr "začiatok strihu tu"

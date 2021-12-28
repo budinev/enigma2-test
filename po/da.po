@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-07 10:36+0100\n"
+"POT-Creation-Date: 2021-12-22 15:03+0100\n"
 "PO-Revision-Date: 2017-01-18 16:38+0100\n"
 "Last-Translator: lupine <a_ecklon@hotmail.com>\n"
 "Language-Team: \n"
@@ -133,6 +133,10 @@ msgstr ""
 
 #, python-format
 msgid "%.2f GB"
+msgstr ""
+
+#, python-format
+msgid "%.3f MHz"
 msgstr ""
 
 #, python-format
@@ -325,6 +329,14 @@ msgstr ""
 
 #, python-format
 msgid "%s %d.%d"
+msgstr ""
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr ""
+
+#, python-format
+msgid "%s MHz"
 msgstr ""
 
 #, python-format
@@ -1184,6 +1196,9 @@ msgstr ""
 msgid "Audio auto volume level"
 msgstr ""
 
+msgid "Audio description for the visually impaired"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Lydsprogs valg 1"
 
@@ -1888,6 +1903,12 @@ msgstr "Vælg Tuner"
 
 msgid "Choose bouquet"
 msgstr "Vælg bouquet"
+
+msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
+msgstr ""
+
+msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
+msgstr ""
 
 msgid "Choose which tuner to configure."
 msgstr "Vælg hvilken tuner der skal konfigureres"
@@ -3058,6 +3079,11 @@ msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Plads der skal reseveres til optagelser (I GB)"
 
 #
+#, fuzzy
+msgid "Disk state: "
+msgstr "søge status"
+
+#
 msgid "Display 16:9 content as"
 msgstr "Vis 16:9 indhold som"
 
@@ -3993,13 +4019,6 @@ msgstr ""
 msgid ""
 "FBC automatic\n"
 "inactive"
-msgstr ""
-
-#, python-format
-msgid "FBC socket %s"
-msgstr ""
-
-msgid "FBC virtual"
 msgstr ""
 
 #
@@ -5484,6 +5503,9 @@ msgstr "Luxemborgsk"
 msgid "MB"
 msgstr "B"
 
+msgid "MHz"
+msgstr ""
+
 #
 msgid "MMC card"
 msgstr "MMC kort"
@@ -6489,6 +6511,10 @@ msgid "Ordinary"
 msgstr ""
 
 msgid "Original"
+msgstr "Original"
+
+#, fuzzy
+msgid "Original audio"
 msgstr "Original"
 
 msgid "Other"
@@ -7681,6 +7707,9 @@ msgstr "Fjern valgte satellit"
 msgid "Remove terrestrial services"
 msgstr "Fjern terrestrial services"
 
+msgid "Remove the services on scanned transponders before re-adding services?"
+msgstr ""
+
 msgid "Remove this logfile"
 msgstr ""
 
@@ -8187,6 +8216,9 @@ msgstr "Skan muligheder"
 msgid "Scan state"
 msgstr "søge status"
 
+msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
+msgstr ""
+
 #
 msgid "Scan wireless networks"
 msgstr "Søge trådløse netværk"
@@ -8599,6 +8631,18 @@ msgid "Select video mode"
 msgstr "Vælg video type"
 
 msgid "Select whether your SCR device is externally powered."
+msgstr ""
+
+#, fuzzy
+msgid "Select which satellite to scan."
+msgstr "Vælg satelitter"
+
+#
+#, fuzzy
+msgid "Select which transponder to scan."
+msgstr "Vælg udbyder, der skal tilføjes..."
+
+msgid "Select which tuner to use for the scan."
 msgstr ""
 
 #
@@ -9333,6 +9377,14 @@ msgstr "Slideshow interval (sek.)"
 msgid "Slot %d"
 msgstr "Slot %d"
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr ""
+
 msgid "Slovak"
 msgstr "Slovakisk"
 
@@ -9570,7 +9622,8 @@ msgstr ""
 msgid "Standard"
 msgstr "Standard"
 
-msgid "Standart list"
+#, fuzzy
+msgid "Standard list"
 msgstr "Standard liste"
 
 #
@@ -12379,6 +12432,10 @@ msgstr "aktiver opsætning for netværksadapter"
 msgid "active"
 msgstr "Relativ"
 
+#, fuzzy
+msgid "active "
+msgstr "Relativ"
+
 msgid "actual time only"
 msgstr "Aktuel tid kun"
 
@@ -13336,6 +13393,11 @@ msgstr "sport magasin"
 #
 msgid "standard"
 msgstr "standard"
+
+#
+#, fuzzy
+msgid "standby "
+msgstr "Standby"
 
 #
 msgid "start cut here"

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-07 10:36+0100\n"
+"POT-Creation-Date: 2021-12-22 15:03+0100\n"
 "PO-Revision-Date: 2021-05-05 20:00+0200\n"
 "Last-Translator: blzr <blzr@o2.pl>\n"
 "Language-Team: \n"
@@ -123,6 +123,10 @@ msgstr ""
 
 #, python-format
 msgid "%.2f GB"
+msgstr ""
+
+#, python-format
+msgid "%.3f MHz"
 msgstr ""
 
 #, python-format
@@ -324,6 +328,14 @@ msgstr ""
 
 #, python-format
 msgid "%s %d.%d"
+msgstr ""
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr ""
+
+#, python-format
+msgid "%s MHz"
 msgstr ""
 
 #, python-format
@@ -1067,6 +1079,9 @@ msgstr "Audio: PID, kodek i język"
 msgid "Audio auto volume level"
 msgstr "Automatyczny poziom głośności"
 
+msgid "Audio description for the visually impaired"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Preferowana ścieżka audio 1"
 
@@ -1688,6 +1703,12 @@ msgstr "Wybierz tuner"
 
 msgid "Choose bouquet"
 msgstr "Wybierz bukiet"
+
+msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
+msgstr ""
+
+msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
+msgstr ""
 
 msgid "Choose which tuner to configure."
 msgstr "Wybierz tuner do skonfigurowania."
@@ -2700,6 +2721,10 @@ msgstr "Wyłączone"
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Przestrzeń dyskowa zarezerwowana dla nagrań (w GB)"
 
+#, fuzzy
+msgid "Disk state: "
+msgstr "Status skanowania"
+
 msgid "Display 16:9 content as"
 msgstr "Wyświetlaj zawartość 16:9 jako"
 
@@ -3519,13 +3544,6 @@ msgid ""
 msgstr ""
 "FBC automatyczny\n"
 "nieaktywny"
-
-#, python-format
-msgid "FBC socket %s"
-msgstr ""
-
-msgid "FBC virtual"
-msgstr ""
 
 msgid "FEC"
 msgstr ""
@@ -4819,6 +4837,9 @@ msgstr "luxemburski"
 msgid "MB"
 msgstr "B"
 
+msgid "MHz"
+msgstr ""
+
 msgid "MMC card"
 msgstr "Karta MMC"
 
@@ -5675,6 +5696,10 @@ msgid "Ordinary"
 msgstr "Zwykły"
 
 msgid "Original"
+msgstr "Oryginalny"
+
+#, fuzzy
+msgid "Original audio"
 msgstr "Oryginalny"
 
 msgid "Other"
@@ -6681,6 +6706,9 @@ msgstr "Usuń wybranego satelitę"
 msgid "Remove terrestrial services"
 msgstr "Usuń kanały tv naziemnej"
 
+msgid "Remove the services on scanned transponders before re-adding services?"
+msgstr ""
+
 msgid "Remove this logfile"
 msgstr "Usuń ten log"
 
@@ -7109,6 +7137,9 @@ msgstr "Opcje skanowania"
 msgid "Scan state"
 msgstr "Status skanowania"
 
+msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
+msgstr ""
+
 msgid "Scan wireless networks"
 msgstr "Skanuj sieci bezprzewodowe"
 
@@ -7471,6 +7502,17 @@ msgstr "Wybierz tryb video"
 
 msgid "Select whether your SCR device is externally powered."
 msgstr "Wybierz, czy twoje urządzenie SCR jest zewnętrznie zasilane."
+
+#, fuzzy
+msgid "Select which satellite to scan."
+msgstr "Wybierz satelity"
+
+#, fuzzy
+msgid "Select which transponder to scan."
+msgstr "Wybierz nadawcę do dodania..."
+
+msgid "Select which tuner to use for the scan."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Wybierz sieć bezprzewodową"
@@ -8115,6 +8157,14 @@ msgstr "Odstępy w pokazie slajdów (w sek.)"
 msgid "Slot %d"
 msgstr ""
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr ""
+
 msgid "Slovak"
 msgstr "Słowacki"
 
@@ -8320,7 +8370,8 @@ msgstr ""
 msgid "Standard"
 msgstr "Standardowe"
 
-msgid "Standart list"
+#, fuzzy
+msgid "Standard list"
 msgstr "Lista standardowa"
 
 msgid "Standby"
@@ -10803,6 +10854,10 @@ msgstr "Aktywuj konfigurację adaptera sieciowego."
 msgid "active"
 msgstr "aktywny"
 
+#, fuzzy
+msgid "active "
+msgstr "aktywny"
+
 msgid "actual time only"
 msgstr "Tylko bieżący czas"
 
@@ -11633,6 +11688,10 @@ msgstr "Magazyn sportowy"
 
 msgid "standard"
 msgstr "Standardowe"
+
+#, fuzzy
+msgid "standby "
+msgstr "Czuwanie"
 
 msgid "start cut here"
 msgstr "Rozpocznij cięcie tutaj"

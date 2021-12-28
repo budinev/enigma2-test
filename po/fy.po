@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-07 10:36+0100\n"
+"POT-Creation-Date: 2021-12-22 15:03+0100\n"
 "PO-Revision-Date: 2008-12-29 16:22+0100\n"
 "Last-Translator: gerrit <gerrit@nedlinux.nl>\n"
 "Language-Team: gerrit <fy@li.org>\n"
@@ -129,6 +129,10 @@ msgstr ""
 
 #, python-format
 msgid "%.2f GB"
+msgstr ""
+
+#, python-format
+msgid "%.3f MHz"
 msgstr ""
 
 #, python-format
@@ -324,6 +328,14 @@ msgstr ""
 
 #, python-format
 msgid "%s %d.%d"
+msgstr ""
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr ""
+
+#, python-format
+msgid "%s MHz"
 msgstr ""
 
 #, python-format
@@ -1193,6 +1205,9 @@ msgstr ""
 msgid "Audio auto volume level"
 msgstr ""
 
+msgid "Audio description for the visually impaired"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr ""
 
@@ -1902,6 +1917,12 @@ msgid "Choose Tuner"
 msgstr ""
 
 msgid "Choose bouquet"
+msgstr ""
+
+msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
+msgstr ""
+
+msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
 msgstr ""
 
 msgid "Choose which tuner to configure."
@@ -3092,6 +3113,11 @@ msgid "Disk space to reserve for recordings (in GB)"
 msgstr ""
 
 #
+#, fuzzy
+msgid "Disk state: "
+msgstr "sykjen status"
+
+#
 msgid "Display 16:9 content as"
 msgstr "16:9 ynhâld sjen litte as"
 
@@ -4032,13 +4058,6 @@ msgstr ""
 msgid ""
 "FBC automatic\n"
 "inactive"
-msgstr ""
-
-#, python-format
-msgid "FBC socket %s"
-msgstr ""
-
-msgid "FBC virtual"
 msgstr ""
 
 #
@@ -5539,6 +5558,9 @@ msgstr ""
 msgid "MB"
 msgstr "B"
 
+msgid "MHz"
+msgstr ""
+
 #
 #, fuzzy
 msgid "MMC card"
@@ -6564,6 +6586,9 @@ msgid "Ordinary"
 msgstr ""
 
 msgid "Original"
+msgstr ""
+
+msgid "Original audio"
 msgstr ""
 
 msgid "Other"
@@ -7768,6 +7793,9 @@ msgstr "Selektearre sat ferwiderje"
 msgid "Remove terrestrial services"
 msgstr ""
 
+msgid "Remove the services on scanned transponders before re-adding services?"
+msgstr ""
+
 msgid "Remove this logfile"
 msgstr ""
 
@@ -8282,6 +8310,9 @@ msgstr ""
 msgid "Scan state"
 msgstr "sykjen status"
 
+msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
+msgstr ""
+
 #
 #, fuzzy
 msgid "Scan wireless networks"
@@ -8712,6 +8743,15 @@ msgid "Select video mode"
 msgstr "Kies fideo moadus"
 
 msgid "Select whether your SCR device is externally powered."
+msgstr ""
+
+msgid "Select which satellite to scan."
+msgstr ""
+
+msgid "Select which transponder to scan."
+msgstr ""
+
+msgid "Select which tuner to use for the scan."
 msgstr ""
 
 #
@@ -9464,6 +9504,14 @@ msgstr "Slide foarstelling tiid (sec.)"
 msgid "Slot %d"
 msgstr "Slot %d"
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr ""
+
 msgid "Slovak"
 msgstr ""
 
@@ -9695,8 +9743,10 @@ msgstr ""
 msgid "Standard"
 msgstr "standert"
 
-msgid "Standart list"
-msgstr ""
+#
+#, fuzzy
+msgid "Standard list"
+msgstr "standert"
 
 #
 msgid "Standby"
@@ -12463,6 +12513,9 @@ msgstr ""
 msgid "active"
 msgstr ""
 
+msgid "active "
+msgstr ""
+
 msgid "actual time only"
 msgstr ""
 
@@ -13418,6 +13471,11 @@ msgstr ""
 #
 msgid "standard"
 msgstr "standert"
+
+#
+#, fuzzy
+msgid "standby "
+msgstr "Paraatmode"
 
 #
 msgid "start cut here"

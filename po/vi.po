@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: enigma 2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-07 10:36+0100\n"
+"POT-Creation-Date: 2021-12-22 15:03+0100\n"
 "PO-Revision-Date: 2021-08-02 09:19+0700\n"
 "Last-Translator: krong\n"
 "Language-Team: none\n"
@@ -123,6 +123,10 @@ msgstr "%.1f° W"
 #, python-format
 msgid "%.2f GB"
 msgstr "%.2f GB"
+
+#, python-format
+msgid "%.3f MHz"
+msgstr ""
 
 #, python-format
 msgid "%02d:%02d"
@@ -300,6 +304,14 @@ msgstr ""
 #, python-format
 msgid "%s %d.%d"
 msgstr "%s %d.%d"
+
+#, python-format
+msgid "%s KSymb/s"
+msgstr ""
+
+#, python-format
+msgid "%s MHz"
+msgstr ""
 
 #, python-format
 msgid "%s imported from fallback tuner"
@@ -1036,6 +1048,9 @@ msgstr "Âm thanh PID, codec & lang"
 msgid "Audio auto volume level"
 msgstr "Mức âm lượng tự động"
 
+msgid "Audio description for the visually impaired"
+msgstr ""
+
 msgid "Audio language selection 1"
 msgstr "Lựa chọn ngôn ngữ âm thanh 1"
 
@@ -1657,6 +1672,12 @@ msgstr "Chọn bộ chỉnh"
 
 msgid "Choose bouquet"
 msgstr "Chọn gói kênh"
+
+msgid "Choose whether to scan a single transponder, one satellite or multiple satellites."
+msgstr ""
+
+msgid "Choose whether to scan for free services only or whether to include paid/encrypted services too."
+msgstr ""
 
 msgid "Choose which tuner to configure."
 msgstr "Chọn bộ chỉnh nào để cấu hình."
@@ -2669,6 +2690,10 @@ msgstr "Cho phép/không cho phép"
 msgid "Disk space to reserve for recordings (in GB)"
 msgstr "Dung lượng đĩa để dự trữ cho bản ghi (tính bằng GB)"
 
+#, fuzzy
+msgid "Disk state: "
+msgstr "trạng thái quét"
+
 msgid "Display 16:9 content as"
 msgstr "Hiển thị hình ảnh chuẩn 16: 9"
 
@@ -3486,13 +3511,6 @@ msgid ""
 msgstr ""
 "FBC tự động\n"
 "không hoạt động"
-
-#, python-format
-msgid "FBC socket %s"
-msgstr "Ổ cắm FBC%s"
-
-msgid "FBC virtual"
-msgstr "FBC ảo"
 
 msgid "FEC"
 msgstr "FEC"
@@ -4783,6 +4801,9 @@ msgstr "Tiếng Luxembourg"
 msgid "MB"
 msgstr "B"
 
+msgid "MHz"
+msgstr ""
+
 msgid "MMC card"
 msgstr "Thẻ MMC"
 
@@ -5639,6 +5660,10 @@ msgid "Ordinary"
 msgstr "Bình thường"
 
 msgid "Original"
+msgstr "Nguyên"
+
+#, fuzzy
+msgid "Original audio"
 msgstr "Nguyên"
 
 msgid "Other"
@@ -6646,6 +6671,9 @@ msgstr "Nền văn hóa mới"
 msgid "Remove terrestrial services"
 msgstr "Loại bỏ các dịch vụ trên mặt đất"
 
+msgid "Remove the services on scanned transponders before re-adding services?"
+msgstr ""
+
 msgid "Remove this logfile"
 msgstr "Xóa tệp logfile này"
 
@@ -7072,6 +7100,9 @@ msgstr "Tùy chọn quét"
 msgid "Scan state"
 msgstr "Trạng thái quét"
 
+msgid "Scan using transponders on NIT table? 'No' will use transponders in xml file."
+msgstr ""
+
 msgid "Scan wireless networks"
 msgstr "Quét mạng không dây"
 
@@ -7430,6 +7461,17 @@ msgstr "Chọn chế độ video"
 
 msgid "Select whether your SCR device is externally powered."
 msgstr "Chọn xem thiết bị SCR của bạn có được cấp nguồn bên ngoài hay không."
+
+#, fuzzy
+msgid "Select which satellite to scan."
+msgstr "Chọn vệ tinh"
+
+#, fuzzy
+msgid "Select which transponder to scan."
+msgstr "Lựa chọn hướng dẫn cho logfile...."
+
+msgid "Select which tuner to use for the scan."
+msgstr ""
 
 msgid "Select wireless network"
 msgstr "Chọn mạng không dây"
@@ -8073,6 +8115,14 @@ msgstr "Khoảng thời gian trình chiếu (giây)"
 msgid "Slot %d"
 msgstr "Khe %d"
 
+#, python-format
+msgid "Slot %s / FBC in %s"
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Slot %s / FBC virtual %s"
+msgstr "FBC ảo"
+
 msgid "Slovak"
 msgstr "Tiếng Slovak"
 
@@ -8278,7 +8328,8 @@ msgstr "Sri Lanka"
 msgid "Standard"
 msgstr "Tiêu chuẩn"
 
-msgid "Standart list"
+#, fuzzy
+msgid "Standard list"
 msgstr "Danh sách tiêu chuẩn"
 
 msgid "Standby"
@@ -10753,6 +10804,10 @@ msgstr "kích hoạt cấu hình bộ điều hợp mạng"
 msgid "active"
 msgstr "hoạt động"
 
+#, fuzzy
+msgid "active "
+msgstr "hoạt động"
+
 msgid "actual time only"
 msgstr "chỉ thời gian thực tế"
 
@@ -11583,6 +11638,10 @@ msgstr "tạp chí thể thao"
 
 msgid "standard"
 msgstr "tiêu chuẩn"
+
+#, fuzzy
+msgid "standby "
+msgstr "Tắt ở chế độ chờ"
 
 msgid "start cut here"
 msgstr "bắt đầu cắt ở đây"
