@@ -11,7 +11,7 @@ from VideoHardware import video_hw
 config.misc.videowizardenabled = ConfigBoolean(default=True)
 
 
-class VideoSetup(Screen, ConfigListScreen):
+class VideoSetup(ConfigListScreen, Screen):
 
 	def __init__(self, session, hw):
 		Screen.__init__(self, session)
@@ -26,7 +26,7 @@ class VideoSetup(Screen, ConfigListScreen):
 		self.onHide.append(self.stopHotplug)
 
 		self.list = []
-		ConfigListScreen.__init__(self, self.list, session=session, on_change=self.changedEntry)
+		ConfigListScreen.__init__(self, self.list, session=session, on_change=self.createSetup)
 
 		from Components.ActionMap import ActionMap
 		self["actions"] = ActionMap(["SetupActions", "MenuActions"],
@@ -165,7 +165,6 @@ class VideoSetup(Screen, ConfigListScreen):
 			self.list.append(getConfigListEntry(_("Scaler sharpness"), config.av.scaler_sharpness, _("Configure the sharpness of the video scaling.")))
 
 		self["config"].list = self.list
-		self["config"].l.setList(self.list)
 
 	def keyLeft(self):
 		ConfigListScreen.keyLeft(self)
@@ -200,24 +199,6 @@ class VideoSetup(Screen, ConfigListScreen):
 			self.session.openWithCallback(self.confirm, MessageBox, _("Is this video mode ok?"), MessageBox.TYPE_YESNO, timeout=20, default=False)
 		else:
 			self.keySave()
-
-	# for summary:
-	def changedEntry(self):
-		for x in self.onChangedEntry:
-			x()
-
-	def getCurrentEntry(self):
-		return self["config"].getCurrent()[0]
-
-	def getCurrentValue(self):
-		return str(self["config"].getCurrent()[1].getText())
-
-	def getCurrentDescription(self):
-		return self["config"].getCurrent() and len(self["config"].getCurrent()) > 2 and self["config"].getCurrent()[2] or ""
-
-	def createSummary(self):
-		from Screens.Setup import SetupSummary
-		return SetupSummary
 
 
 class VideomodeHotplug:
